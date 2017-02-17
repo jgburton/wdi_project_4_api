@@ -5,6 +5,8 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
+#this a note
+
 
 # Bundle edge Rails instead: gem '
 gem 'rails', '~> 5.0.1'
