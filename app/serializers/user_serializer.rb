@@ -1,3 +1,6 @@
 class UserSerializer < ActiveModel::Serializer
-  attributes :id
+  # has_many :tracks
+  # has_many :versions
+  attributes :id, :email
+
 end
