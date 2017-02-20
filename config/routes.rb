@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
-  resources :ideas
   scope :api do
+    resources :additions
+    resources :ideas
     resources :posts
     resources :users
     post "register", to: "authentications#register"

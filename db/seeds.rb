@@ -1,5 +1,8 @@
 User.destroy_all
-Post.destroy_all
+# Post.destroy_all
 
-u1 = User.create! username: "RichardSinclair", email:"richard@richard.com", password_digest: "password"
-u1 = User.create! username: "JamieGB", email:"jamie@jamie.com", password_digest: "password"
+
+# Seeding Users
+u1 = User.create! email:"richard@richard.com", password: "password", password_confirmation: "password"
+u2 = User.create! email:"jamie@jamie.com", password: "password", password_confirmation: "password"
+u3 = User.create! email:"claire@claire.com", password: "password", password_confirmation: "password"
