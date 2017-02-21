@@ -46,6 +46,6 @@ class AdditionsController < ApplicationController
 
     # Only allow a trusted parameter "white list" through.
     def addition_params
-      params.require(:addition).permit(:user_id, :idea_id, :instruments, :blurb, :sound_url)
+      params.require(:addition).permit(:user_id, :idea_id, :blurb, :sound_url, :instruments => [])
     end
 end
