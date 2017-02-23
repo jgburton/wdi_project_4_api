@@ -5,7 +5,7 @@ class AdditionSerializer < ActiveModel::Serializer
 end
 
 def addition_poster
-  UserSerializer.new(self.user).attributes[:email]
+  UserSerializer.new(self.user).attributes[:username]
 end
 
 def idea_added_to
