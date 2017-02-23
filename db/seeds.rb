@@ -27,10 +27,10 @@ i4 = u5.ideas.create!(name: "Cinematic Sounds", sound_url: "https://cdn.filepick
 
 # # All additions included, comment out any and reseed if you want to demo an upload.
 
-# #Additions
-# # for idea 1
-# # Piano
-# a1 = u5.additions.create!(idea_id: i1.id, sound_url: "https://cdn.filepicker.io/api/file/gmFCj1mERdRmfNmoh8Bg", blurb: "Adding keys to Richard's idea.", instruments: ["Piano"])
+#Additions
+# for idea 1
+# Piano
+a1 = u5.additions.create!(idea_id: i1.id, sound_url: "https://cdn.filepicker.io/api/file/gmFCj1mERdRmfNmoh8Bg", blurb: "Adding keys to Richard's idea.", instruments: ["Piano"])
 
 # # Mandolin
 a2 = u2.additions.create!(idea_id: i1.id, sound_url: "https://cdn.filepicker.io/api/file/2ZMFgkSNScmcj4thChUE", blurb: "Adding mandolin to Richard's idea.", instruments: ["Mandolin"])
