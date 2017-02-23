@@ -4,7 +4,7 @@ Idea.destroy_all
 
 
 #Users
-u1 = User.create! email:"richard@richard.com", password: "password", password_confirmation: "password"
+u1 = User.create! email:"richard@richard.com", password: "password", password_confirmation: "password", username: "Richie Rich", image: "http://www.fillmurray.com/200/200"
 u2 = User.create! email:"jamie@jamie.com", password: "password", password_confirmation: "password"
 u3 = User.create! email:"ivy@ivy.com", password: "password", password_confirmation:"password"
 u4 = User.create! email:"laurence@laurence.com", password: "password", password_confirmation:"password"

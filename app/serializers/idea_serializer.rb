@@ -8,7 +8,7 @@ class IdeaSerializer < ActiveModel::Serializer
   end
 
   def idea_poster
-    UserSerializer.new(object.user).attributes[:email]
+    User.find(object.user)
   end
 
 end
