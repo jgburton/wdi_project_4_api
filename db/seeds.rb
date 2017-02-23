@@ -4,12 +4,12 @@ Idea.destroy_all
 
 
 #Users
-u1 = User.create! email:"richard@richard.com", password: "password", password_confirmation: "password", username: "Richie Rich", image: "http://www.fillmurray.com/200/200"
-u2 = User.create! email:"jamie@jamie.com", password: "password", password_confirmation: "password"
-u3 = User.create! email:"ivy@ivy.com", password: "password", password_confirmation:"password"
-u4 = User.create! email:"laurence@laurence.com", password: "password", password_confirmation:"password"
-u5 = User.create! email:"edward@edward.com", password: "password", password_confirmation:"password"
-u6 = User.create! email:"sarah@sarah.com", password: "password", password_confirmation: "password"
+u1 = User.create! email:"richard@richard.com", password: "password", password_confirmation: "password", username: "Richie Rich", image: "http://i.imgur.com/1ClVcxg.jpg"
+u2 = User.create! email:"jamie@jamie.com", password: "password", password_confirmation: "password", username: "James", image: "http://i.imgur.com/UIt2bAD.jpg"
+u3 = User.create! email:"ivy@ivy.com", password: "password", password_confirmation:"password", username: "Ivy Chu", image: "http://i.imgur.com/bBOli1s.jpg"
+u4 = User.create! email:"laurence@laurence.com", password: "password", password_confirmation:"password", username: "Laurence G", image: "http://i.imgur.com/0BbBNNA.jpg"
+u5 = User.create! email:"edward@edward.com", password: "password", password_confirmation:"password", username: "Eddy", image: "http://i.imgur.com/Hy7k2OO.jpg"
+u6 = User.create! email:"sarah@sarah.com", password: "password", password_confirmation: "password", username: "Sarah", image: "http://i.imgur.com/ah3dPXA.jpg"
 
 
 # Audio arrangements below, split into ideas and additions
@@ -30,7 +30,7 @@ i4 = u5.ideas.create!(name: "Cinematic Sounds", sound_url: "https://cdn.filepick
 # #Additions
 # # for idea 1
 # # Piano
-a1 = u5.additions.create!(idea_id: i1.id, sound_url: "https://cdn.filepicker.io/api/file/gmFCj1mERdRmfNmoh8Bg", blurb: "Adding keys to Richard's idea.", instruments: ["Piano"])
+# a1 = u5.additions.create!(idea_id: i1.id, sound_url: "https://cdn.filepicker.io/api/file/gmFCj1mERdRmfNmoh8Bg", blurb: "Adding keys to Richard's idea.", instruments: ["Piano"])
 
 # # Mandolin
 a2 = u2.additions.create!(idea_id: i1.id, sound_url: "https://cdn.filepicker.io/api/file/2ZMFgkSNScmcj4thChUE", blurb: "Adding mandolin to Richard's idea.", instruments: ["Mandolin"])
