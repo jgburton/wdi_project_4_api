@@ -10,16 +10,44 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170216121235) do
+ActiveRecord::Schema.define(version: 20170220153850) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
+  create_table "additions", force: :cascade do |t|
+    t.integer  "user_id"
+    t.integer  "idea_id"
+    t.string   "instruments", default: [],              array: true
+    t.text     "blurb"
+    t.string   "sound_url"
+    t.datetime "created_at",               null: false
+    t.datetime "updated_at",               null: false
+    t.index ["idea_id"], name: "index_additions_on_idea_id", using: :btree
+    t.index ["user_id"], name: "index_additions_on_user_id", using: :btree
+  end
+
+  create_table "ideas", force: :cascade do |t|
+    t.string   "name"
+    t.string   "sound_url"
+    t.integer  "user_id"
+    t.text     "blurb"
+    t.string   "instruments", default: [],              array: true
+    t.datetime "created_at",               null: false
+    t.datetime "updated_at",               null: false
+    t.index ["user_id"], name: "index_ideas_on_user_id", using: :btree
+  end
+
   create_table "users", force: :cascade do |t|
     t.string   "email"
     t.string   "password_digest"
+    t.string   "username"
+    t.string   "image"
     t.datetime "created_at",      null: false
     t.datetime "updated_at",      null: false
   end
 
+  add_foreign_key "additions", "ideas"
+  add_foreign_key "additions", "users"
+  add_foreign_key "ideas", "users"
 end
