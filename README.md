@@ -21,6 +21,7 @@ The project has a title of 'RemoteComposer'. Providing a way of eliminating arti
 
 ####User ---------------< Ideas --------------< Additions<br>
 
+A user can add an orginal 'idea', or an contribute an 'addition' to an existing 'idea'.
 
 ####User
 name<br>
