@@ -94,7 +94,8 @@ Original Track [Play] [Download]<br>
 * To not include instruments of choice.<br>
 * The ability to upload an instrument track.
 
-###The completed app is deployed on Heroku:Will link to live application when deployed.
+###The completed app is deployed on Heroku:
+https://remotecomposer.herokuapp.com/
 
 ##Reflection
 
