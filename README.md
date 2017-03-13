@@ -45,18 +45,20 @@ sound_url<br>
 addition<br>
 
 
-
 ## User Journey
 ##### Log in/register
 Standard jwt authentication process. Angular/Ruby on rails stack.
-    
+![](http://i.imgur.com/uOVnl1h.png)
+
 ##### 1. Select instrument
 Browse through various audio files for selected instrument.
 
 Listen to audio files.
 
 Download audio file you like the sound of.
-   
+
+![](http://i.imgur.com/3sdIHq0.png)
+
 ##### 2. Add to composition
 Once the audio file is downloaded, the user can click and drag this into their DAW(digital audio workstation) as an mp3. They then add another instrument or layer of sound to the idea. Export this instrumental idea as a layer in mp3/wav format.
 
@@ -64,9 +66,15 @@ Once the audio file is downloaded, the user can click and drag this into their D
 
 This mp3 is then uploaded to the platform in addition to the original track.
 
+![](http://i.imgur.com/JYcS5ey.png)
+
+![](http://i.imgur.com/eB1J9dM.png)
+
 ##### 4. Additions
 
 The user can then play a combination of additions simultaneously with the original idea OR download the individual additions and original idea to then combine into one complete audio file.
+
+![](http://i.imgur.com/zpLKtMW.png)
 
 ### **Requirements of API**
 
