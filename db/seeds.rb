@@ -4,12 +4,12 @@ Idea.destroy_all
 
 
 #Users
-u1 = User.create! email:"richard@richard.com", password: "password", password_confirmation: "password", username: "Richie Rich", image: "http://i.imgur.com/1ClVcxg.jpg"
-u2 = User.create! email:"jamie@jamie.com", password: "password", password_confirmation: "password", username: "James", image: "http://i.imgur.com/UIt2bAD.jpg"
-u3 = User.create! email:"ivy@ivy.com", password: "password", password_confirmation:"password", username: "Ivy Chu", image: "http://i.imgur.com/bBOli1s.jpg"
-u4 = User.create! email:"laurence@laurence.com", password: "password", password_confirmation:"password", username: "Laurence G", image: "http://i.imgur.com/0BbBNNA.jpg"
-u5 = User.create! email:"edward@edward.com", password: "password", password_confirmation:"password", username: "Eddy", image: "http://i.imgur.com/Hy7k2OO.jpg"
-u6 = User.create! email:"sarah@sarah.com", password: "password", password_confirmation: "password", username: "Sarah", image: "http://i.imgur.com/ah3dPXA.jpg"
+u1 = User.create! email:"richard@richard.com", password: "password", password_confirmation: "password", username: "Richie Rich", image: "https://i.imgur.com/1ClVcxg.jpg"
+u2 = User.create! email:"jamie@jamie.com", password: "password", password_confirmation: "password", username: "James", image: "https://i.imgur.com/UIt2bAD.jpg"
+u3 = User.create! email:"ivy@ivy.com", password: "password", password_confirmation:"password", username: "Ivy Chu", image: "https://i.imgur.com/bBOli1s.jpg"
+u4 = User.create! email:"laurence@laurence.com", password: "password", password_confirmation:"password", username: "Laurence G", image: "https://i.imgur.com/0BbBNNA.jpg"
+u5 = User.create! email:"edward@edward.com", password: "password", password_confirmation:"password", username: "Eddy", image: "https://i.imgur.com/Hy7k2OO.jpg"
+u6 = User.create! email:"sarah@sarah.com", password: "password", password_confirmation: "password", username: "Sarah", image: "https://i.imgur.com/ah3dPXA.jpg"
 
 
 # Audio arrangements below, split into ideas and additions
